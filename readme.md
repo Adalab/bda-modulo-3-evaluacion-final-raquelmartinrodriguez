@@ -19,12 +19,16 @@ Se han instalado las siguientes librerías:
 
 ## 🌟 Estructura de las carpetas
 
-El ejercicio está dividido en 4 partes, cada una de ellas corresponde a un archivo de Jupiter. El orden en el que están estructurados es el siguiente:
+El ejercicio está dividido en 4 partes, cada una de ellas corresponde a un archivo de Jupiter. Todos ellos se encuentran en la carpeta notebooks. El orden en el que están estructurados es el siguiente:
 
     - 1. Exploración: se realiza una exploración completa de los datos: descripción, principales estadísticos, características de las variables, tipo de datos... gracias a esta exploración conocemos nuestros datos y tenemos una idea general del problema. 
     - 2. Transformación y limpieza: Los datos originales no son homogéneos. Los transformamos utilizando los métodos que nos proporcionan las librerías para que nos sea más sencillo trabajar con ellos.
     - 3. Análisis: realizamos una análisis exhaustivo de los datos. Respondemos a una serie de preguntas concretas sobre la relación entre algunas de las variables (estas preguntas las encontrarás en el archivo de enunciados). Para la visualización de estas relaciones utilizamos los métodos que nos proporcionan las librerías Seaborn y Matplotlib. 
     - 4. a/b testing: realizamos una prueba de a/b testing para comprobar si las diferencias entre dos de las variables son o no significativas. 
+
+Las bases de datos están ubicadas en la carpeta 'files'. Partimos de dos bases de datos diferentes, que provienen de una compañía de vuelos: 'customer_flight_activity.csv' y 'customer_loyalty_history.csv'. Tras la transformación, limpieza y homogeneización de datos, obtenemos un único csv llamado 'flights.csv'
+
+También encontramos un archivo llamado 'main.py'. Este archivo se ha utilizado para practicar ETL ("Extract, Transform, Load") con la parte de exploración de datos. El soporte de este archivo está ubicado en la carpeta 'src' y se llama 'soporte.py'.
 
 
 ## 📆 Fechas
@@ -46,4 +50,4 @@ El objetivo de esta evaluacion es comprobar que se han adquirido los siguientes 
 
 ## 💭 Contribución
 
-Por favor sientete libre utilizar e inspirarte en estos ejercicios o de sugerir mejoras en cuanto a la resolucion de los mismos
+Por favor, sientete libre utilizar e inspirarte en estos ejercicios o de sugerir mejoras en cuanto a la resolucion de los mismos
