@@ -1,7 +1,16 @@
 #%%
 import pandas as pd
-#%%
+
+import pandas as pd
+
+def abrir_csv(ruta):
+    """Esta funcion carga los csv"""
+    df = pd.read_csv(ruta)
+    return df
+
+
 def explorar_df(df1, df2):
+
     # Exploración del primer DataFrame (df1)
     print("DataFrame 1:")
     print(f"Número de filas: {df1.shape[0]} | Número de columnas: {df1.shape[1]}")
@@ -35,10 +44,5 @@ def explorar_df(df1, df2):
     print("Información sobre tipos de datos:")
     print(df2.info())
 
-#%% 
 
-
-   
-
-   
 # %%
